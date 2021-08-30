@@ -1,0 +1,81 @@
+
+// colors 定义颜色
+$colors:(
+    "primary":#db9e3f,
+    "title":#4394e4,
+    "0":#ff3636,
+    "1":#1e96ab,
+    "2":#f09a37,
+    "3":#4d9cff,
+    "4":#3ceb85,
+    "info":#4b67af,
+    "white":#fff,
+    "light":#f9f9f9,
+    "light-1":#d4d9de,
+    "grey":#999,
+    "grey-1":#666,
+    "dark-light":#343440,
+    "dark":#222,
+    "black": #000,
+);
+
+
+$border-color:map-get($colors , 'light-1' );
+// font size
+$base-font-size:1rem;
+$font-sizes:(
+    xxs: 0.6154, //8px
+    xs:0.7692, //10px
+    sm:0.9231, //12px
+    md:1,      //13px
+    lg:1.0769, //14px
+    xl:1.2308  //16px
+);
+//justify-content
+$flex-jc:(
+    start:flex-start,
+    end:flex-end,
+    center:center,
+    between:space-between,
+    around:space-around
+);
+//align-items
+$flex-ai:(
+    start:flex-start,
+    end:flex-end,
+    center:center,
+    stretch:stretch
+);
+$spacing-types:(
+  m:margin,
+  p:padding
+);
+$spacing-directions:(
+  t:top,
+  b:bottom,
+  l:left,
+  r:right
+);
+$spacing-base-size:1rem;
+$spacing-sizes:(
+    0: 0,
+    1: 0.25,
+    2: 0.5,
+    3: 1,
+    4: 1.5,
+    5: 3
+);
+$bg-img:(
+    1:  0,
+    2:  9.927%,
+    3:  19.855%,
+    4:  29.782%,
+    5:  39.709%,
+    6:  49.637%,
+    7:  59.564%,
+    8:  69.492%,
+    9:  79.419%,
+    10:  69.492%,
+);
+
+
